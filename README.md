@@ -1,90 +1,56 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# My Website Project
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A simple **responsive multipage website** built with:
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+- **HTML5** for semantic structure
+- **CSS3** for styling & responsiveness
+- **JavaScript** for interactivity (image slider + form validation)
 
----
+## Pages
+- **Home (`index.html`)**: Hero section and image slider.
+- **About (`about.html`)**: Project overview with a responsive grid.
+- **Contact (`contact.html`)**: Accessible contact form with client-side validation.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## How to Run Locally
+1. Download and unzip the project.
+2. Open `index.html` in your browser (or use VS Code Live Server for a better experience).
 
-Before you write any code, take time to plan:
+## Deploy Options
+### GitHub Pages
+1. Create a new repo and push these files.
+2. In the repo, go to **Settings → Pages**.
+3. Under **Source**, choose `Deploy from a branch`, then pick `main` and `/root` folder.
+4. Save. Your site will be live at the URL shown by GitHub.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+### Netlify
+1. Go to Netlify dashboard → **Add new site** → **Deploy manually**.
+2. Drag-and-drop the **entire project folder**.
+3. Netlify gives you a live URL you can customize.
 
-**Goal:** Show intentional structure and user journey across the site.
+### Vercel
+1. Go to Vercel → **New Project** → Import your GitHub repo.
+2. Click **Deploy** (no special build settings needed for static sites).
+3. Share the live URL Vercel provides.
 
----
+## Live URL
+Add your live URL here once deployed: `https://your-live-url.example`
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Folder Structure
+```
+my-website/
+├── index.html
+├── about.html
+├── contact.html
+├── style.css
+├── script.js
+├── images/
+│   ├── slide1.jpg
+│   ├── slide2.jpg
+│   └── slide3.jpg
+└── README.md
+```
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+## Notes
+- The site is responsive and includes a mobile hamburger menu.
+- The slider auto-plays and can be navigated with Previous/Next controls.
+- The contact form includes basic client-side validation.
